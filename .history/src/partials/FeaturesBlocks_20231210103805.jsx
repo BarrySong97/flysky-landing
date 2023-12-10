@@ -56,7 +56,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Teachers
+                Student Manage
               </h4>
               <p className="text-gray-600 text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -97,7 +97,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Students
+                Discovery Session
               </h4>
               <p className="text-gray-600 text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -131,7 +131,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Interactive
+                Contracting
               </h4>
               <p className="text-gray-600 text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -178,7 +178,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Courses
+                Fast Prototyping
               </h4>
               <p className="text-gray-600 text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -212,7 +212,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Orders
+                Design Phase
               </h4>
               <p className="text-gray-600 text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -255,7 +255,7 @@ function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Mini Programs(Wechat)
+                Develop & Launch
               </h4>
               <p className="text-gray-600 text-center">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.

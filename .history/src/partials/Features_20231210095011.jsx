@@ -2,9 +2,6 @@ import React, { useState, useRef, useEffect } from "react";
 import Transition from "../utils/Transition";
 
 import FeaturesBg from "../images/features-bg.png";
-import FeaturesBg1 from "../images/494shots_so.png";
-import FeaturesBg2 from "../images/777shots_so.png";
-import FeaturesBg3 from "../images/966shots_so.png";
 import FeaturesElement from "../images/features-element.png";
 
 function Features() {
@@ -163,6 +160,37 @@ function Features() {
                     </svg>
                   </div>
                 </a>
+                <a
+                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
+                    tab !== 4
+                      ? "bg-white shadow-md border-gray-200 hover:shadow-lg"
+                      : "bg-gray-200 border-transparent"
+                  }`}
+                  href="#0"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setTab(4);
+                  }}
+                >
+                  <div>
+                  <div className="text-gray-600">                      Our product, when paired with mini-programs, boasts
+                      remarkable efficiency, delivering a seamlessly integrated
+                      and versatile user experience.</div>
+                    </div>
+                    <div className="font-bold leading-snug tracking-tight mb-1">
+                    Miniprograms:
+                    </div>
+                  </div>
+                  <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
+                    <svg
+                      className="w-3 h-3 fill-current"
+                      viewBox="0 0 12 12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M11.953 4.29a.5.5 0 00-.454-.292H6.14L6.984.62A.5.5 0 006.12.173l-6 7a.5.5 0 00.379.825h5.359l-.844 3.38a.5.5 0 00.864.445l6-7a.5.5 0 00.075-.534z" />
+                    </svg>
+                  </div>
+                </a>
               </div>
             </div>
 
@@ -188,10 +216,18 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                     <img
                       className="md:max-w-none mx-auto rounded"
-                      src={FeaturesBg1}
+                      src={FeaturesBg}
                       width="500"
                       height="462"
                       alt="Features bg"
+                    />
+                    <img
+                      className="md:max-w-none absolute w-full left-0 transform animate-float"
+                      src={FeaturesElement}
+                      width="500"
+                      height="44"
+                      alt="Element"
+                      style={{ top: "30%" }}
                     />
                   </div>
                 </Transition>
@@ -210,10 +246,18 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                     <img
                       className="md:max-w-none mx-auto rounded"
-                      src={FeaturesBg2}
+                      src={FeaturesBg}
                       width="500"
                       height="462"
                       alt="Features bg"
+                    />
+                    <img
+                      className="md:max-w-none absolute w-full left-0 transform animate-float"
+                      src={FeaturesElement}
+                      width="500"
+                      height="44"
+                      alt="Element"
+                      style={{ top: "30%" }}
                     />
                   </div>
                 </Transition>
@@ -232,10 +276,18 @@ function Features() {
                   <div className="relative inline-flex flex-col">
                     <img
                       className="md:max-w-none mx-auto rounded"
-                      src={FeaturesBg3}
+                      src={FeaturesBg}
                       width="500"
                       height="462"
                       alt="Features bg"
+                    />
+                    <img
+                      className="md:max-w-none absolute w-full left-0 transform animate-float"
+                      src={FeaturesElement}
+                      width="500"
+                      height="44"
+                      alt="Element"
+                      style={{ top: "30%" }}
                     />
                   </div>
                 </Transition>
